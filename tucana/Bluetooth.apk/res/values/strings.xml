@@ -36,6 +36,10 @@
     <string name="airplane_error_title">Airplane mode</string>
     <string name="am">AM</string>
     <string name="app_name">Bluetooth</string>
+    <string name="aptx_notification_aptx">This device supports Qualcomm® aptX™</string>
+    <string name="aptx_notification_aptx_adaptive">This device supports Qualcomm® aptX™ Adaptive</string>
+    <string name="aptx_notification_aptx_hd">This device supports Qualcomm® aptX™ HD</string>
+    <string name="aptx_notification_title">Bluetooth</string>
     <string name="auth_notif_message">Type session key for %1$s</string>
     <string name="auth_notif_ticker">Obex authentication request</string>
     <string name="auth_notif_title">Session Key</string>
@@ -287,6 +291,8 @@
     <string name="miui_transfer_history_title">Bluetooth transfers</string>
     <string name="miui_transfer_inbound_title">Inbound</string>
     <string name="miui_transfer_outbound_title">Outbound</string>
+    <string name="miuix_access_state_desc">Selected</string>
+    <string name="miuix_alphabet_indexer_name">Index bar</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Deselect</string>
     <string name="miuix_appcompat_action_mode_select_all">Select all</string>
     <string name="miuix_appcompat_action_mode_title_empty">Select items</string>
@@ -301,6 +307,8 @@
     <string name="miuix_appcompat_select_all">Select all</string>
     <string name="miuix_appcompat_select_all_description">Select all</string>
     <string name="miuix_appcompat_select_item">Select items</string>
+    <string name="miuix_indexer_collect">Collections</string>
+    <string name="miuix_indexer_selected">Selected %s</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Pull down to refresh</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Refreshed successfully</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Refreshing…</string>

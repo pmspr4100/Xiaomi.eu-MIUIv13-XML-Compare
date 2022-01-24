@@ -1666,6 +1666,7 @@ are available"</string>
     <string name="input_or_select_a_name">Enter or select a name</string>
     <string name="input_relation_name">Enter group name</string>
     <string name="install_fail">"Couldn't load plug-in due to an error."</string>
+    <string name="install_media_editor_function_message">Download the latest version of Gallery Editor to be able to use \"%1$s\".</string>
     <string name="install_media_editor_latest_message">To be able to edit items, download the latest plug-in first.</string>
     <string name="install_media_editor_message">To be able to edit items, download the plug-in first. Download now?</string>
     <string name="install_media_editor_title">Download plug-in</string>
@@ -1907,6 +1908,8 @@ to personalize Gallery"</string>
     <string name="midnight">Night</string>
     <string name="migrate_msg">Some albums require permissions to move items after a system update.</string>
     <string name="miplay_adjust_volume">Set volume to %d</string>
+    <string name="miplay_circulate_failed">流转失败，请稍后重试</string>
+    <string name="miplay_circulating_msg">视频正在流转中...</string>
     <string name="miplay_pause_video">Pause</string>
     <string name="miplay_play_video">Play</string>
     <string name="miplay_seekbar_content_description">Playback progress: %1$s %2$s</string>

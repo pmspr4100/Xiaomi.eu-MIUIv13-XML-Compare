@@ -183,9 +183,13 @@ The accessibility button floats on your screen over other apps. Tap it to magnif
     <string name="accessibility_menu_description">"Accessibility menu provides convenient shortcuts that allow you to control your device.
 
 Turn this feature on and tap the Accessibility button at the bottom of your screen to open the menu."</string>
+    <string name="accessibility_menu_description_pad">"Accessibility menu provides convenient shortcuts that allow you to control your device.
+
+Turn this feature on and tap the Accessibility button at the bottom of your screen to open the menu."</string>
     <string name="accessibility_menu_item_settings">Settings</string>
     <string name="accessibility_menu_service_name">Accessibility menu</string>
     <string name="accessibility_menu_summary">Control your device using convenient shortcuts</string>
+    <string name="accessibility_menu_summary_pad">Control your device using convenient shortcuts</string>
     <string name="accessibility_more_settings">Additional settings</string>
     <string name="accessibility_no_calling">No calling.</string>
     <string name="accessibility_no_data">No data.</string>
@@ -637,6 +641,8 @@ If this permission is off, existing alarms and time-based events scheduled by th
     <string name="aod_style_description">Display clock, date, time, notifications, and other items when the screen is off</string>
     <string name="aod_style_title">Style</string>
     <string name="aod_to_close">Turn off</string>
+    <string name="ap_connect_failed">"Couldn't connect"</string>
+    <string name="ap_connected_battery_level">" | Battery %1$s"</string>
     <string name="apn_apn">APN</string>
     <string name="apn_auth_type">Authentication type</string>
     <string name="apn_auth_type_chap">CHAP</string>
@@ -863,6 +869,9 @@ Change settings now?"</string>
     <string name="auto_clean_description">"About this feature
 1. Run this feature once or twice if you find that your speaker is lightly blocked by dust.
 2. If the speaker is blocked heavily, run this feature 2-5 times while shaking your device with the speaker facing downwards."</string>
+    <string name="auto_clean_description_pad">"About this feature
+- Run this feature once or twice if you find that your speaker is lightly blocked by dust.
+- If the speaker is blocked heavily, run this feature %1$d-%2$d times while shaking your device with the speaker facing downwards."</string>
     <string name="auto_clean_summary">Play a 30-second audio to clear the speaker</string>
     <string name="auto_clean_summary_new">Play a %d-second audio to clear the speaker. Use this feature multiple times in a row for substantial amounts of grime.</string>
     <string name="auto_clean_title">Clear speaker</string>
@@ -1843,8 +1852,7 @@ If you've already done any of the above, add your Mi Account again; otherwise, y
     <string name="breathing_light_freq_summary">Set pulse interval for trackball</string>
     <string name="breathing_light_freq_title">Light pulse frequency</string>
     <string name="brightness">Brightness level</string>
-    <string name="brightness_auto_adjust_off">You can adjust screen brightness manually now. It will remain constant until you adjust it again.</string>
-    <string name="brightness_auto_adjust_on">Screen brightness will be optimized according to ambient light. You can still make minor adjustments manually.</string>
+    <string name="brightness_auto_summary">Adjust brightness to ambient light to save battery</string>
     <string name="brightness_summary">Adjust the brightness of the screen</string>
     <string name="brightness_title">Brightness</string>
     <string name="bssid_label">BSSID:</string>
@@ -2218,6 +2226,7 @@ If you install a CA certificate, the certificate owner could access your data, s
     <string name="clear_all_data">Erase all data</string>
     <string name="clear_cache_btn_text">Clear cache</string>
     <string name="clear_data_alert_info">All backups stored on this device will be deleted permanently. Back up important items to your computer and Xiaomi Cloud before performing a factory reset.</string>
+    <string name="clear_data_alert_info_pad">All backups stored on this device will be deleted permanently. Back up important items to your computer and Xiaomi Cloud before you continue.</string>
     <string name="clear_data_dlg_text">All this app’s data will be deleted permanently. This includes all files, settings, accounts, databases, etc.</string>
     <string name="clear_data_dlg_title">Delete app data?</string>
     <string name="clear_failed_dlg_text">Couldn’t clear storage for app.</string>
@@ -2465,6 +2474,7 @@ If you install a CA certificate, the certificate owner could access your data, s
     <string name="connected_wifi">Connected</string>
     <string name="connecting_to_vpn">Connecting to VPN</string>
     <string name="connection_and_sharing">Connection &amp; sharing</string>
+    <string name="connection_control">Manage connections</string>
     <string name="contact_data">Contacts</string>
     <string name="contact_discovery_opt_in_dialog_message">"Your contacts’ phone numbers will be periodically sent to %1$s.
 
@@ -3370,8 +3380,8 @@ You can view generated logs in File Manager."</string>
     <string name="enable_service_pattern_reason">Because turning on %1$s affects data encryption, you need to confirm your pattern.</string>
     <string name="enable_service_pin_reason">Because turning on %1$s affects data encryption, you need to confirm your PIN.</string>
     <string name="enable_service_title">The service will perform these actions:</string>
-    <string name="enable_sizecompat_freeform">Enable freeform sizecompat</string>
-    <string name="enable_sizecompat_freeform_summary">Allows sizecompat apps to be in freeform</string>
+    <string name="enable_sizecompat_freeform">Force allow resizing windows</string>
+    <string name="enable_sizecompat_freeform_summary">Allow apps with compatibility restrictions to run in resizable windows</string>
     <string name="enable_snapshot_screenlock">Long press Back to take photo</string>
     <string name="enable_terminal_summary">Enable terminal app that offers local shell access</string>
     <string name="enable_terminal_title">Local terminal</string>
@@ -3546,6 +3556,7 @@ Restart your device and try again."</string>
     <string name="external_ram_dialog_icon_title">Memory extension is on</string>
     <string name="external_ram_dialog_message">Reboot your device to apply changes.</string>
     <string name="external_ram_dialog_title">Reboot device</string>
+    <string name="external_ram_remind_toast">Storage space is running low. Turned off memory extension for now.</string>
     <string name="external_ram_summary">"Add %1$s %2$s of RAM by occupying storage. Use this feature only when there's enough storage space available on your device."</string>
     <string name="external_ram_title">Memory extension</string>
     <string name="external_ram_toast">"Can't use memory extension due to insufficient storage space"</string>
@@ -3643,6 +3654,7 @@ Face unlock is less secure than a PIN, password, or pattern. Your device might b
     <string name="feedback">Feedback</string>
     <string name="feedback_btn_text">Submit feedback</string>
     <string name="feedback_settings">Services &amp; feedback</string>
+    <string name="feedback_settings_new">Feedback</string>
     <string name="file_privacy_password_role_instruction">Your private files will be stored here.</string>
     <string name="filter">Filter</string>
     <string name="filter_all_apps">All apps</string>
@@ -3950,6 +3962,7 @@ There seemed to be no horses nor animals of any kind; the men carried things aro
     <string name="freeform_guide_slide_to_small_freeform_summary">"Press and hold the bottom of the window, and drag it to the upper right corner.
 This feature works only when system navigation is set to gestures."</string>
     <string name="freeform_guide_slide_to_small_freeform_summary_pad">Drag the corner to minimize an app</string>
+    <string name="freeform_guide_slide_to_small_freeform_summary_pad_global">Drag the corner to minimize an app</string>
     <string name="freeform_guide_slide_to_small_freeform_title">Minimize an app</string>
     <string name="freeform_guide_slide_up_to_close_summary">Swipe up from the action bar of a floating window</string>
     <string name="freeform_guide_slide_up_to_close_title">Closing floating windows</string>
@@ -4162,6 +4175,7 @@ When you turn on automatic backup, device and app data is periodically saved rem
     <string name="headphone_assisted_summary">"Transmit your phone's mic feed to connected Bluetooth earphones"</string>
     <string name="headphone_assisted_title">Live in-ear monitor</string>
     <string name="headset_aac">AAC</string>
+    <string name="headset_ambient_sound">Ambient sounds</string>
     <string name="headset_aptx_adapter">Qualcomm® aptX™ Adaptive</string>
     <string name="headset_connectiong">Connecting…</string>
     <string name="headset_find_both">Both</string>
@@ -4180,7 +4194,7 @@ When you turn on automatic backup, device and app data is periodically saved rem
     <string name="headset_find_tip_title">Attention</string>
     <string name="headset_find_title">Find your earphones</string>
     <string name="headset_find_voice_warning">High volume warning</string>
-    <string name="headset_head_tracking_desc">Adjust surround sound based on head movement</string>
+    <string name="headset_head_tracking_desc">Adjust immersive sound based on head movement</string>
     <string name="headset_head_tracking_title">Track head movement</string>
     <string name="headset_notification_switch_summary">Show status on the Notification shade widget when earphones are connected</string>
     <string name="headset_notification_switch_title">Notification shade widget</string>
@@ -4188,7 +4202,9 @@ When you turn on automatic backup, device and app data is periodically saved rem
     <string name="headset_remove_message_indicate">%1$s will be unpaired from all the devices associated with this Mi Account.</string>
     <string name="headset_sbc">SBC</string>
     <string name="headset_settings_title">Sound effects</string>
-    <string name="headset_spatial_audio">Spatial audio</string>
+    <string name="headset_silent_upgrade_switch_summary">Headset automatically upgrades under specified conditions</string>
+    <string name="headset_silent_upgrade_switch_title">Automatic upgrade</string>
+    <string name="headset_spatial_audio">Dimensional audio</string>
     <string name="headset_toast_tip_disconnect_others">The headset cannot be set up at this time, your headset may be connected to another phone</string>
     <string name="headset_unsaved_device">Remove the device</string>
     <string name="headset_unsaved_devices">Used on other devices</string>
@@ -4314,6 +4330,7 @@ When you turn on automatic backup, device and app data is periodically saved rem
     <string name="hide_extra_apps">Show app usage</string>
     <string name="hide_silent_icons_summary">"Icons from gentle notifications aren't shown in the status bar"</string>
     <string name="hide_silent_icons_title">Hide icons from gentle notifications</string>
+    <string name="high_brightness_hint_summary">A small sun icon will appear at the top of the screen when ambient light is strong</string>
     <string name="high_label">High</string>
     <string name="high_performance_notif_summary">Device may heat up during heavy use.</string>
     <string name="high_performance_notif_title">Performance mode is on</string>
@@ -4524,6 +4541,7 @@ Open Xiaomi Cloud and restore items from there."</string>
     <string name="interact_across_profiles_switch_enabled">Connected</string>
     <string name="interact_across_profiles_title">Connected work &amp; personal apps</string>
     <string name="interaction_control_category_title">Interaction controls</string>
+    <string name="interconnection">Interconnectivity</string>
     <string name="interesting_text">Realistic tactile sensations make your interaction with the screen more clear and articulated.</string>
     <string name="interesting_title">Realistic touch</string>
     <string name="internal_memory">Internal storage</string>
@@ -5472,6 +5490,8 @@ You won't be able to reverse this action."</string>
     <string name="menu_item_notification_power_text">Battery optimization</string>
     <string name="menu_key">Menu</string>
     <string name="menu_new">New APN</string>
+    <string name="menu_new_display_open">用新窗口打开</string>
+    <string name="menu_pc_open">用电脑程序打开</string>
     <string name="menu_proc_stats_duration">Duration</string>
     <string name="menu_proc_stats_type">Stats type</string>
     <string name="menu_proc_stats_type_background">Background</string>
@@ -5797,6 +5817,7 @@ Switching to %1$s won't cancel your %2$s service."</string>
     <string name="model_info">Model</string>
     <string name="model_name">Model</string>
     <string name="model_number">Device</string>
+    <string name="model_number_pad">Device</string>
     <string name="model_summary">Model: %1$s</string>
     <string name="modern_control_center_desc">Pull down status bar on the left to view notifications. Pull down status bar on the right to open Control center.</string>
     <string name="modern_control_center_title">New version</string>
@@ -5965,6 +5986,7 @@ Select your operating system:"</string>
     <string name="multi_touch_points_category_title">Multi-touch points</string>
     <string name="multi_touch_points_preference">This setting will take effect after you reboot your device</string>
     <string name="multi_window_cvw_summary">Drag the corner to switch to a floating window and adjust its size</string>
+    <string name="multi_window_cvw_summary_global">Drag the corner to switch to a floating window and adjust its size</string>
     <string name="multi_window_cvw_title">Floating window</string>
     <string name="multifunction_keyboard">Multifunctional</string>
     <string name="multiple_users_main_switch_title">Use multiple users</string>
@@ -6183,13 +6205,7 @@ This replaces %2$s as your default payment app."</string>
     <string name="night_display_temperature_title">Intensity</string>
     <string name="night_display_text">Night Light tints your screen amber. This makes it easier to look at your screen or read in dim light, and may help you fall asleep more easily.</string>
     <string name="night_display_title">Night Light</string>
-    <string name="night_light">Night mode</string>
-    <string name="night_light_brightness">Night mode brightness</string>
-    <string name="night_light_color">Night mode color temperature</string>
-    <string name="night_light_color_tip">Changes will take effect when Reading mode is off</string>
     <string name="night_light_main_switch_title">Use Night Light</string>
-    <string name="night_light_summary">To turn on Night mode, minimize screen brightness in low light conditions.</string>
-    <string name="night_light_tip">Changes will take effect when Night mode is on</string>
     <string name="no">No</string>
     <string name="no_5g_in_dsds_text">When using 2 SIMs, this phone will be limited to 4G. <annotation id="url">Learn more</annotation></string>
     <string name="no_application">None</string>
@@ -6754,8 +6770,8 @@ Press Power and Volume up at the same time."</string>
     <string name="power_mgr">Battery optimization</string>
     <string name="power_mode">Power settings</string>
     <string name="power_mode_balanced_title">Balance power</string>
-    <string name="power_monitor_summary">Tools used to monitor power</string>
-    <string name="power_monitor_title">Power monitor</string>
+    <string name="power_monitor_summary">Tools for monitoring power consumption</string>
+    <string name="power_monitor_title">Power consumption</string>
     <string name="power_optimize">Battery saver</string>
     <string name="power_overcounted">Over-counted</string>
     <string name="power_phone">Voice calls</string>
@@ -7212,6 +7228,7 @@ Press Power and Volume up at the same time."</string>
 You will not lose any app data."</string>
     <string name="reset_app_preferences_title">Reset app preferences?</string>
     <string name="reset_confirm_directory">"Note: Before restoring items, check whether the folder \"MIUI-Backup-AllBackup\" exists on your mobile device. If it doesn't, create it."</string>
+    <string name="reset_confirm_directory_pad">"Note: Before restoring items, check whether the folder \"MIUI-Backup-AllBackup\" exists on your mobile device. If it doesn't, create it."</string>
     <string name="reset_dashboard_summary">Network, apps, or device can be reset</string>
     <string name="reset_dashboard_summary_onlyApps">Apps can be reset</string>
     <string name="reset_dashboard_title">Reset options</string>
@@ -7385,6 +7402,7 @@ This setting affects all users on this phone."</string>
     <string name="scanning_status_text_wifi_on_ble_off">Wi-Fi scanning is on, Bluetooth scanning is off</string>
     <string name="scanning_status_text_wifi_on_ble_on">Both Wi-Fi and Bluetooth scanning are on</string>
     <string name="screen">Screen</string>
+    <string name="screen_brightness">Screen brightness</string>
     <string name="screen_cancel">Cancel</string>
     <string name="screen_color_and_optimize">Colors &amp; contrast</string>
     <string name="screen_color_and_optimize_disabled">"Can't adjust color scheme and color temperature in Reading mode"</string>
@@ -8841,6 +8859,12 @@ Try using a faster ^3, or use this ^4 for portable storage instead."</string>
     <string name="storageuse_settings_title">Storage use</string>
     <string name="strict_mode">Strict mode</string>
     <string name="strict_mode_summary">Flash screen when apps do long operations on main thread</string>
+    <string name="string_KB">%d KB</string>
+    <string name="string_KB_per_log_buffer">%d KB per log buffer</string>
+    <string name="string_MB">%d MB</string>
+    <string name="string_MB_per_log_buffer">%d MB per log buffer</string>
+    <string name="string_off">Off</string>
+    <string name="string_offed">Off</string>
     <string name="strong_suppression_summary">Your device will be less responsive to accidental touch, some gesture controls might not work near the edges</string>
     <string name="strong_suppression_title">Big area</string>
     <string name="structure_add_facerecoginition_text">Add 3D face data</string>
@@ -8926,7 +8950,7 @@ Try using a faster ^3, or use this ^4 for portable storage instead."</string>
     <string name="sunday_short">Sun</string>
     <string name="sunday_shortest">Sun</string>
     <string name="sunlight_mode">Sunlight mode</string>
-    <string name="sunlight_mode_summary">Adjust brightness to strong ambient light when automatic brightness is off</string>
+    <string name="sunlight_mode_summary">Adjust brightness to strong ambient light to prevent the screen from going too dark</string>
     <string name="supl_not_set">&lt;Not set></string>
     <string name="supplicant_state_label">Supplicant state:</string>
     <string name="support_summary">Help articles, phone &amp; chat</string>
@@ -8934,7 +8958,7 @@ Try using a faster ^3, or use this ^4 for portable storage instead."</string>
     <string name="surround_sound_all_desc">Enhance the depth of sound reproduction for earphones and speakers</string>
     <string name="surround_sound_only_headset_desc">Enhance the depth of sound reproduction for earphones</string>
     <string name="surround_sound_only_speaker_desc">Enhance the depth of sound reproduction for speakers</string>
-    <string name="surround_sound_title">Surround sound</string>
+    <string name="surround_sound_title">Immersive sound</string>
     <string name="swipe_direction_ltr">Swipe right to dismiss, left to show menu</string>
     <string name="swipe_direction_rtl">Swipe left to dismiss, right to show menu</string>
     <string name="swipe_direction_title">Swipe actions</string>
